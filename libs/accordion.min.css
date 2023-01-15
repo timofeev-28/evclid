@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/**
+ * Accordion v3.3.0
+ * Lightweight and accessible accordion module created in pure Javascript
+ * https://github.com/michu2k/Accordion
+ *
+ * Copyright (c) Michał Strumpf
+ * Published under MIT License
+ */
+
+.ac{box-sizing:border-box}.ac .ac-header{margin:0;padding:0}.ac .ac-trigger{cursor:pointer;}/*.ac .ac-trigger:focus{color:#8a8a8a}*/.ac .ac-panel{overflow:hidden;transition-property:height,visibility;transition-timing-function:ease}.ac.js-enabled .ac-panel{visibility:hidden}.ac.is-active .ac-panel{visibility:visible}.ac.is-active>.ac-header .ac-trigger::after{content:"–"}
