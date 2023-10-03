@@ -425,6 +425,10 @@
   .faq__btn-text {
     padding-right: 25px;
   }
+
+  .footer__btn {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1105,10 +1109,6 @@
 
     .footer__checkbox + span {
       margin-top: 0;
-    }
-
-    .footer__checkbox + span::before {
-      top: -11px;
     }
 
     .footer__label {
